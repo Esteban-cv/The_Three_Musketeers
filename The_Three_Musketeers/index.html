@@ -1,279 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Three Musketeers - La Leyenda de los Mosqueteros Desairados</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  </head>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The three Musketeers - web</title>
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-</head>
-
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo black-text">The Three Musketeers</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center text-lighten-2">The Three Musketeers</h1>
-        <div class="row center">
-          <h5 class="header col s12 flow-text">Mind, Fire, and Truth. The alliance an empire should never have rejected.
-          </h5>
+  <body>
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <div id="preloader" class="preloader">
+      <div class="preloader-content">
+        <div class="preloader-logo">Los Tres Mosqueteros</div>
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-yellow-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button"
-            class="btn-large custom-button">Discover the legend</a>
-        </div>
-
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/los 3 mosqueteros.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h2 class="header" style="color: #685044; font-size: 40px;">Forged in Rejection</h2>
-        </div>
-      </div>
-
-      <div class="row valign-wrapper">
-
-        <div class="col s12 m6 center-align">
-          <img class="responsive-img materialboxed" src="assets/img/los tres viend el mapa.jpg"
-            alt="Mike, Karmelo y Chikapú planeando su futuro">
-        </div>
-
-        <div class="col s12 m6">
-          <h5 style="color: #685044;">The Birth of an Alliance</h5>
-          <p class="light" style="color: #685044;">
-            In the lavish Crystal Empire, three destinies collided. An ambitious monster, an immortal warrior, and an
-            oracle of truth were all snubbed by the same princess. Humiliated but not defeated, they met at the Inn of
-            the Last Resort. There, amid the echoes of their failures, they swore loyalty not to a king, but to each
-            other, forging a pact stronger than any crown.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-
-  <div class="slider">
-    <ul class="slides">
-
-      <li>
-        <img src="assets/img/los tres viend el mapa.jpg" alt="Fondo de Mike Rodriguez">
-        <div class="caption center-align">
-          <h2 style="text-shadow: 2px 2px 4px #000;">Mike Rodriguez</h2>
-          <h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 1px 3px #000;">
-            La Mente Ambiciosa. El estratega maestro cuya visión da forma al nuevo imperio.
-          </h5>
-        </div>
-      </li>
-
-      <li>
-        <img src="assets/img/los 3 mosqueteros.jpg" alt="Fondo de Karmelo">
-        <div class="caption left-align">
-          <h2 style="text-shadow: 2px 2px 4px #000;">Karmelo</h2>
-          <h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 1px 3px #000;">
-            El Fénix Resiliente. El corazón del equipo, capaz de renacer más fuerte de cualquier derrota.
-          </h5>
-        </div>
-      </li>
-
-      <li>
-        <img src="assets/img/aventuras en el desierto.jpg" alt="Fondo de Chikapú">
-        <div class="caption right-align">
-          <h2 style="text-shadow: 2px 2px 4px #000;">Chikapú</h2>
-          <h5 class="light grey-text text-lighten-3" style="text-shadow: 1px 1px 3px #000;">
-            La Verdad Eléctrica. La brújula moral cuya honestidad ilumina el camino.
-          </h5>
-        </div>
-      </li>
-
-    </ul>
-  </div>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/los 3 mosqueteros.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id
-            nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies
-            eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et
-            pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed.
-            Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam
-            eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <div class="section" style="background-color: #132A13; color: #FFEFDE; padding: 40px 0;">
-  <div class="container">
-
-    <div class="row">
-      <div class="col s12 center-align">
-        <h2 class="header">Our Mission: An Empire of Authenticity</h2>
-        <p class="flow-text light">
-          Our war is not with swords, but with ideas. The goal is not revenge, but the creation of a new world where ambition, resilience, and truth are the highest virtues.
-        </p>
+        <p>Cargando la leyenda de los mosqueteros desairados...</p>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 50px;">
+    <nav class="white" role="navigation" id="navbar">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#inicio" class="brand-logo black-text">Los Tres Mosqueteros</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#origen">Origen</a></li>
+          <li><a href="#personajes">Personajes</a></li>
+          <li><a href="#galeria">Galería</a></li>
+        </ul>
 
-      <div class="col s12 m3 center-align">
-        <div style="background-color: #FFC107; height: 100px; width: 100px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-          <i class="material-icons large" style="color: #132A13;">visibility</i>
-        </div>
-        <h5 style="margin-top: 20px;">Vision</h5>
-        <p class="light">Mike's strategy, which draws up plans for a utopia for all the misfits.</p>
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#origen">Origen</a></li>
+          <li><a href="#personajes">Personajes</a></li>
+          <li><a href="#mision">Misión</a></li>
+          <li><a href="#galeria">Galería</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
       </div>
+    </nav>
 
-      <div class="col s12 m3 center-align">
-        <div style="background-color: #FFC107; height: 100px; width: 100px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-          <i class="material-icons large" style="color: #132A13;">build</i>
+    <div id="inicio" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br><br><br>
+          <h1 class="header center text-lighten-2 fade-in">La leyenda de los mosqueteros desairados</h1>
+          <div class="row center">
+            <h5 class="header col s12 flow-text fade-in interactive-text tooltip-container">
+              Mente, Fuego y Verdad. La alianza que un imperio nunca debió rechazar.
+              <span class="tooltip">Tres almas rechazadas que encontraron su destino en la unidad y forjaron un imperio desde el fracaso</span>
+            </h5>
+          </div>
+          <div class="row center fade-in">
+            <a href="#origen" class="btn-large custom-button">Descubrir la Leyenda</a>
+          </div>
+          <br><br><br><br>
         </div>
-        <h5 style="margin-top: 20px;">Fundation</h5>
-        <p class="light">The strength of Karmelo, who forges the foundations of the kingdom from its own ashes.</p>
       </div>
-
-      <div class="col s12 m3 center-align">
-        <div style="background-color: #FFC107; height: 100px; width: 100px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-          <i class="material-icons large" style="color: #132A13;">flash_on</i>
-        </div>
-        <h5 style="margin-top: 20px;">Covenant</h5>
-        <p class="light">The Chikapú law, whose "Electric Fact" becomes the guarantor of truth.</p>
+      <div class="parallax">
+        <img src="assets/img/los 3 mosqueteros.jpg" alt="Los tres mosqueteros unidos">
       </div>
-
-      <div class="col s12 m3 center-align">
-        <div style="background-color: #FFC107; height: 100px; width: 100px; border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
-          <i class="material-icons large" style="color: #132A13;">location_city</i>
-        </div>
-        <h5 style="margin-top: 20px;">Legacy</h5>
-        <p class="light">The ultimate goal: a flourishing empire that is a beacon of hope and authenticity.</p>
-      </div>
-
     </div>
 
-  </div>
-</div>
-
-  <footer class="page-footer teal">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
-            full time job. Any amount would help support and continue development on this project and is greatly
-            appreciated.</p>
-
-
+      <div class="section section-animated first" id="origen">
+        <div class="row">
+          <div class="col s12 center">
+            <h2 class="header float-animation" style="color: #685044; font-size: 40px;">Forjados en el rechazo</h2>
+            <p class="flow-text" style="color: #685044;">En el fastuoso Imperio de Cristal, tres destinos se cruzaron...</p>
+          </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h5><strong>El gran torneo</strong></h5>
+              <p>La Princesa Luminia, cuya belleza eclipsaba al sol, convocó un torneo para hallar consorte. Al llamado respondieron héroes de todo el reino.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h5><strong>Las pruebas</strong></h5>
+              <p>Mike Rodriguez llegó con planes grandilocuentes. Karmelo demostró valentía sin igual. Chikapú certificaba la honestidad como Oráculo Real.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h5><strong>El triple rechazo</strong></h5>
+              <p>Mike: rechazado por "exagerada ambición". Karmelo: descartado por "brutal insistencia". Chikapú: desterrado por revelar la verdad con un Factazo Eléctrico.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h5><strong>El pacto</strong></h5>
+              <p>En la posada "El Último Recurso", entre jarras de hidromiel, descubrieron que su rechazo era su mayor fortaleza. Nació la alianza más insólita del mundo.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+
+    <div class="section section-animated" style="background: linear-gradient(135deg, #132A13, #2E7D32); color: white; padding: 60px 0;">
       <div class="container">
-        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        <div class="row center">
+          <h3 class="white-text">Lo que los une</h3>
+          <div class="col s12 m4">
+            <div class="character-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+              <i class="material-icons large white-text">psychology</i>
+              <h5 class="white-text">Rechazo como motor</h5>
+              <p class="grey-text text-lighten-2">Todos fueron marginados por ser "demasiado". La sociedad no supo qué hacer con su intensidad.</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="character-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+              <i class="material-icons large white-text">favorite</i>
+              <h5 class="white-text">Lealtad forjada</h5>
+              <p class="grey-text text-lighten-2">Su amistad nació del dolor compartido, creando vínculos más fuertes que cualquier victoria.</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="character-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+              <i class="material-icons large white-text">security</i>
+              <h5 class="white-text">Principios inquebrantables</h5>
+              <p class="grey-text text-lighten-2">Ninguno sacrificaría su esencia: ambición, resiliencia y verdad son innegociables.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
 
+    <div class="container">
+      <div class="section section-animated" id="personajes">
+        <div class="row">
+          <div class="col s12 center">
+            <h2 class="header" style="color: #685044; font-size: 40px;">Los Tres Mosqueteros</h2>
+            <p class="flow-text" style="color: #685044;">Conoce a los héroes desairados que forjaron su propio destino</p>
+          </div>
+        </div>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="assets/js/materialize.js"></script>
-  <script src="assets/js/init.js"></script>
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    
-    var options = {
-      indicators: true, 
-      // ESTA LÍNEA AHORA ES MUY IMPORTANTE
-      height: 550,
-      duration: 500,
-      interval: 6000
-    };
-    
-    var instances = M.Slider.init(elems, options);
-  });
-</script>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="character-card mike">
+              <img src="assets/img/mike-gallery2.png" alt="Mike Rodriguez" class="character-avatar">
+              <h4 class="center" style="color: var(--accent-mind);">Mike Rodriguez</h4>
+              <h6 class="center grey-text">La mente ambiciosa</h6>
+              <p class="light">
+                Mike es el estratega maestro, el visionario cuya ambición monstruosa se convirtió en su mayor fortaleza. 
+                Rechazado por sus planes "demasiado grandilocuentes", él transformó cada "no" en combustible para crear 
+                el imperio que todos necesitaban pero nadie se atrevía a imaginar.
+              </p>
+            </div>
+          </div>
 
-</body>
+          <div class="col s12 m4">
+            <div class="character-card karmelo">
+              <img src="assets/img/Karmelo.jpeg" alt="Karmelo" class="character-avatar">
+              <h4 class="center" style="color: var(--accent-fire);">Karmelo</h4>
+              <h6 class="center grey-text">El fénix resiliente</h6>
+              <p class="light">
+                Karmelo viene de un linaje de luchadores que siempre caían en batalla, pero él rompió la tradición. 
+                Su "Renacimiento Ígneo" le permite desintegrarse en polvo ardiente y regresar más fuerte. 
+                Cada derrota es solo el preludio de un renacimiento más poderoso.
+              </p>
+            </div>
+          </div>
 
+          <div class="col s12 m4">
+            <div class="character-card chikapu">
+              <img src="assets/img/Chikapu.jpeg" alt="Chikapú" class="character-avatar">
+              <h4 class="center" style="color: var(--accent-electric);">Chikapú</h4>
+              <h6 class="center grey-text">El rayo de la verdad</h6>
+              <p class="light">
+                Chikapú nació en un mundo donde la mentira era norma. Su "Factazo Eléctrico" consiste en soltar verdades 
+                que sacuden como rayos, iluminando la realidad oculta. No pelea con fuerza física, sino con el poder 
+                de la verdad que limpia el ambiente como un trueno en la tormenta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider section-animated">
+      <ul class="slides">
+        <li>
+          <img src="assets/img/los tres viend el mapa.jpg" alt="Los tres viendo el mapa del tesoro">
+          <div class="caption center-align">
+            <h2>Planeando el futuro</h2>
+            <h5 class="light grey-text text-lighten-3">
+              Mike explica sus audaces planes para conquistar los mercados de los reinos vecinos, no con ejércitos, sino con entretenimiento irresistible.
+            </h5>
+          </div>
+        </li>
+
+        <li>
+          <img src="assets/img/Mike y Karmelo aventureando.jpg" alt="Mike y Karmelo en aventuras">
+          <div class="caption left-align">
+            <h2>Entrenamiento brutal</h2>
+            <h5 class="light grey-text text-lighten-3">
+              Karmelo termina su entrenamiento diario, demostrando que mil derrotas solo lo hacen más poderoso para el próximo desafío.
+            </h5>
+          </div>
+        </li>
+
+        <li>
+          <img src="assets/img/aventuras en el desierto.jpg" alt="Aventuras en el desierto">
+          <div class="caption right-align">
+            <h2>Verificando la verdad</h2>
+            <h5 class="light grey-text text-lighten-3">
+              Chikapú verificando las palabras de un enviado de otra tierra, asegurando que ninguna mentira infiltre su reino transparente.
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="section section-animated">
+        <div class="row">
+          <div class="col s12 center">
+            <h3 class="header" style="color: #685044;">Lo que disfrutan juntos</h3>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="character-card">
+              <i class="material-icons large center-align" style="color: var(--secondary-color); display: block;">lightbulb_outline</i>
+              <h5 class="center">Tormentas de ideas</h5>
+              <p class="light">Se reúnen alrededor de mapas donde Mike propone planes audaces, Karmelo analiza las implicaciones y Chikapú detecta cualquier falla con su don eléctrico.</p>
+            </div>
+          </div>
+          
+          <div class="col s12 m4">
+            <div class="character-card">
+              <i class="material-icons large center-align" style="color: var(--accent-fire); display: block;">fitness_center</i>
+              <h5 class="center">Entrenamientos brutales</h5>
+              <p class="light">Karmelo se enfrenta a desafíos que Mike imagina, mientras Chikapú actúa como "entrenador de la verdad", lanzando críticas eléctricas sin filtro.</p>
+            </div>
+          </div>
+          
+          <div class="col s12 m4">
+            <div class="character-card">
+              <i class="material-icons large center-align" style="color: var(--accent-electric); display: block;">restaurant</i>
+              <h5 class="center">Gastronomía colombiana</h5>
+              <p class="light">Disfrutan de la bandeja paisa que Mike conoció en sus viajes, recordando que hay un mundo más allá de imperios y princesas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section section-animated" id="galeria">
+        <div class="row">
+          <div class="col s12 center">
+            <h2 class="header" style="color: #685044; font-size: 40px;">Galería: Un día en la vida</h2>
+            <p class="flow-text" style="color: #685044;">Momentos capturados de nuestros héroes en su nueva realidad</p>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/img/los tres viend el mapa.jpg" alt="Planeando estrategias">
+            <div class="gallery-caption">
+              <h5>Sesión estratégica</h5>
+              <p>Mike explicando sus audaces planes mientras los otros aportan su perspectiva única al gran mapa del futuro.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/Mike y Karmelo aventureando.jpg" alt="Mike y Karmelo en aventuras">
+            <div class="gallery-caption">
+              <h5>Aventuras épicas</h5>
+              <p>Mike y Karmelo explorando nuevos territorios, fortaleciendo su alianza a través de desafíos compartidos.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="assets/img/aventuras en el desierto.jpg" alt="Travesía del desierto">
+            <div class="gallery-caption">
+              <h5>Travesía del desierto</h5>
+              <p>Los tres mosqueteros enfrentando las pruebas más duras, donde cada grano de arena fortalece su determinación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section section-animated">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="material-icons large" style="color: var(--secondary-color);">groups</i></h3>
+            <h4 class="interactive-text">El Cuarto Mosquetero</h4>
+            <div class="character-card">
+              <h5 style="color: var(--primary-color);">Una invitación abierta</h5>
+              <p class="left-align light">
+                La leyenda cuenta que Mike, Karmelo y Chikapú siempre han creído que su consejo necesita un cuarto miembro. 
+                Alguien que, como ellos, haya sido rechazado por ser "demasiado" pero que posea una cualidad única que 
+                complemente su trío perfecto.
+              </p>
+              <p class="left-align light">
+                ¿Serías tú ese cuarto mosquetero? ¿Qué cualidad especial traerías al Dominio de la Autenticidad? 
+                La historia permanece abierta, esperando a que alguien más se una a esta alianza de desairados que 
+                cambiaron el mundo.
+              </p>
+              <div class="center" style="margin-top: 30px;">
+                <a href="#inicio" class="btn-large custom-button">Únete a la leyenda</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer" style="background: var(--primary-color);">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Los Creadores de la leyenda</h5>
+            <p class="grey-text text-lighten-4">
+              Esta historia fue forjada por dos visionarios que, como nuestros mosqueteros, encontraron en la colaboración 
+              su mayor fortaleza. Cada personaje nació de la imaginación y el corazón de sus creadores.
+            </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Creadores</h5>
+            <ul>
+              <li><a class="white-text" href="https://github.com/Esteban-cv" target="_blank">
+                <i class="material-icons left">person</i>Esteban Colorado
+              </a></li>
+              <li><p class="grey-text text-lighten-3" style="margin-left: 40px; font-size: 0.9rem;">Creador de Mike Rodriguez</p></li>
+              <li><a class="white-text" href="https://github.com/Sebas18Rodriguez18" target="_blank">
+                <i class="material-icons left">person</i>Sebastian Rodriguez
+              </a></li>
+              <li><p class="grey-text text-lighten-3" style="margin-left: 40px; font-size: 0.9rem;">Creador de Karmelo y Chikapú</p></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">La alianza</h5>
+            <ul>
+              <li><a class="white-text" href="#personajes">
+                <i class="material-icons left">psychology</i>Mike Rodriguez
+              </a></li>
+              <li><a class="white-text" href="#personajes">
+                <i class="material-icons left">whatshot</i>Karmelo
+              </a></li>
+              <li><a class="white-text" href="#personajes">
+                <i class="material-icons left">flash_on</i>Chikapú
+              </a></li>
+              <li><a class="white-text" href="#galeria">
+                <i class="material-icons left">photo_library</i>Galería
+              </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <span class="white-text">© 2025 Los Tres Mosqueteros - Una leyenda de </span>
+          <a class="orange-text text-lighten-3" href="https://materializecss.com">Materialize</a>
+          <span class="white-text"> y mucha imaginación</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+      <i class="material-icons">keyboard_arrow_up</i>
+    </button>
+
+    <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/init.js"></script>
+
+  </body>
 </html>
