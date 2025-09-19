@@ -584,3 +584,18 @@ nav ul a:hover {
     font-size: 1.2rem;
   }
 }
+
+.main-title, .main-subtitle {
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.main-title:hover, .main-subtitle:hover {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6);
+  transform: scale(1.03);
+}
+.creator-role {
+  margin-left: 40px;
+  font-size: 0.9rem;
+  display: block; /* Asegura que el texto aparezca en su propia línea debajo del enlace */
+}
